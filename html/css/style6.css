@@ -1,0 +1,7 @@
+*{margin:0px;padding:0px;}
+body{background-color: brown}
+nav{background-color:black;opacity: .8}
+nav>ul{display: flex;}
+nav>ul>li{margin-left: 30px;list-style: none;padding: 25px;font-size: 20px;box-sizing: border-box}
+nav>ul>li>a:hover{background-color: green;}
+nav>ul>li>a{text-decoration: none;color:bisque;font-family: sans-serif;padding: 25px;box-sizing: border-box;}

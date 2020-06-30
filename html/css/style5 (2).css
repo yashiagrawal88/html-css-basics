@@ -1,0 +1,6 @@
+*{margin:0px;padding: 0px;}
+nav{height:100%;width:150px;background: black;}
+nav>ul{padding-top: 1px;}
+nav>ul>li{color:black;list-style: none; background:gray;margin-top: 8px;font-size: 25px;}
+nav>ul>li>a{text-decoration: none;font-family: sans-serif;color:blanchedalmond;padding:12px;}
+nav>ul>li:hover{background: cadetblue;}

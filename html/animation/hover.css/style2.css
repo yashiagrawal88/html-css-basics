@@ -1,0 +1,8 @@
+.box{height:20%;background-color: aqua;width:10%;position: absolute;top:0px;left:0px}
+.box{animation: box 5s linear infinite;transition: 1s}
+@keyframes box{
+    0%{top:0px;margin-left: 0px}
+    25%{top:0px;margin-left: 90%;background-color: forestgreen}
+    50%{top:80%;margin-left: 90%;background-color: firebrick}
+    75%{top:80%;margin-left: 0px;background-color: deeppink}
+}

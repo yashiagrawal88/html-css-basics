@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>positions</title>
+    <style>
+        .box{background-color: aqua;height: 700px;padding: 40px;}
+        .box-in{background-color: black;height: 400px;position: relative}
+        .box-in-in{background-color: red;height: 200px;position: absolute;width: 20%;right: 0px;top: 0px}
+        .box-in-in button{position: fixed}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box-in">
+            <div class="box-in-in">
+                <button>button</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

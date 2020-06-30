@@ -1,0 +1,75 @@
+*{margin:0px;padding:0px;}
+#box1{display:flex;height:250px;}
+.box1-left{background-color: aqua;height:100%;width:20%;}
+.box1-right{width:80%;height:100%;background-color: darkblue;display:flex;padding:40px; box-sizing:border-box;padding-left: 250px}
+.box1r-inner{height:100%;display:flex;background-color: cornflowerblue;width:100%;padding-bottom: 40px;box-sizing: border-box}
+.box1r-in-left{height:100%;width:33.33%;background-color: floralwhite;margin:20px;}
+.box1r-in-mid{height:100%;width:33.33%;background-color: floralwhite;margin:20px;}
+.box1r-in-right{height:100%;width:33.33%;background-color: floralwhite;margin:20px;}
+
+#box2{height:400px;display:flex;}
+.box2-left{height: 100%;width:30%;background-color:deeppink;}
+.box2-right{height:100%;width:70%}
+.box2r-top{height:50%;width:100%;padding: 40px;box-sizing: border-box;display:flex;background-color: darkcyan}
+.box2rtop-inner{height:100%;display:flex;width:100%}
+.box2rtop-left{height:100%;width:20%;background-color: bisque;}
+.box2rtop-mid{height: 100%;width:60%;background-color: brown}
+.box2rtop-right{height:100%;width: 20%;background-color: burlywood}
+.box2rtopR-upper{height:50%;width:100%;background-color: darkgreen}
+.box2rtopR-lower{height:50%;width:100%;background-color:darkkhaki}
+.box2r-bottom{height:50%;width:100%;background-color:darkseagreen}
+
+#box3{height:430px;display:flex;}
+.box3-left{height:100%;width:50%;background-color: red;}
+.box3L-top{height:20%;background-color: chocolate}
+.box3L-bottom{height: 80%;}
+.box3-right{height:100%;width:50%;}
+.box3R-top{height:50%;background-color: chartreuse;}
+.box3R-bottom{height:50%;display:flex;}
+.box3R_B-left{height:100%;width:50%;}
+.box3R_B_L-top{height:50%;background-color: blueviolet;}
+.box3R_B_L-bottom{height:50%;display:flex;}
+.box3R_B_L_B-left{width:50%;background-color:cyan;}
+.box3R_B_L_B-right{width:50%;background-color: cornflowerblue;}
+.box3R_B-right{width:50%;height:100%;background-color: dimgray}
+
+#box4{background-color: darkred;height:200px;}
+.box4-top{height:25%;background-color:darkorange;width:100%;margin-left: 70% }
+.box4-mid{height:50%;}
+.box4-bottom{height:25%;background-color:darkorange;margin-right: 70%}
+
+#box5{height:180px;display:flex}
+.box5-left{height:100%;width:50%;background-color: lightpink}
+.box5-right{height: 100%; width:50%}
+.box5R-top{height: 50%; background-color:cadetblue;padding:20px;box-sizing: border-box}
+.box5Rtop-inner{background-color:darkorange;height:100%;width:80%;margin-left: 70px;}
+.box5R-bottom{height: 50%;display:flex;box-sizing: border-box}
+.box5R_B-left{height: 100%; width:50%;background-color: crimson}
+.box5R_B-right{height: 100%; width:50%;background-color: blue}
+
+#box6{height:200px;background-color: darkorchid;}
+.box6-top{height:50%;}
+.box6-bottom{height:50%;margin-left: 30%;margin-right: 30%;background-color:aqua}
+
+#box7{height:150px;display: flex;}
+.box7-left{width:20%;background-color: burlywood;}
+.box7-mid{width:40%;background-color: blue;}
+.box7-right{width:40%}
+.box7r-top{height:50%;display:flex}
+.box7r-top-left{width:30%;background-color: cadetblue}
+.box7r-top-right{width:70%;background-color: bisque}
+.box7r-bottom{height:50%;display:flex;}
+.box7r-bottom-left{width:70%;background-color: indianred}
+.box7r-bottom-right{width:30%;background-color: darkslategray}
+
+#box8{height:200px;display: flex;background-color: palevioletred}
+.box8-left{height:30%;width:33.33%;background-color: aqua;margin-top: 140px;}
+.box8-mid{height:100%;width:33.33%;}
+.box8-right{height:30%;width:33.33%;background-color: greenyellow;margin-bottom: 100px;}
+
+
+
+
+
+
+

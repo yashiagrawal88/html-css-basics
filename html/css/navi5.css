@@ -1,0 +1,17 @@
+*{margin: 0px;padding: 0px;font-family: sans-serif}
+nav{height: 50px;padding-top: 50px}
+nav>ul>li>a{text-decoration: none}
+.nav1{background-color: red}
+.nav1>ul{margin-left: 30px}
+.nav1>ul>li{list-style: none;}
+.nav1>ul>li>a{text-decoration: none;}
+
+.nav2{background:maroon;padding-top: 50px}
+.nav2>ul{}
+.nav2>ul>li{list-style: none;}
+.nav2>ul>li>a{text-decoration: none}
+    
+.nav3{background-color: yellow;padding-top: 50px}
+.nav3>ul{}
+.nav3>ul>li{list-style: none;}
+.nav3>ul>li>a{text-decoration: none}

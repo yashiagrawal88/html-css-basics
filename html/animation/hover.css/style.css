@@ -1,0 +1,210 @@
+.container{height:550px;width:44%;background:lightgray;margin:auto}
+.container>div{height:50px;width:100px;background:gray;float:left;margin:15px;transition:.5s;}
+
+
+.box1:hover{transform:scale(1.1)}
+.box2:hover{transform:scale(.9)}
+
+
+
+.box3:hover{animation:box3 2s linear infinite;}
+@keyframes box3{
+    0%{transform:scale(1)}
+    25%{transform:scale(1.1)}
+    50%{transform:scale(1)}
+    75%{transform:scale(.9)}
+} 
+
+
+.box4:hover{animation: box4 0.5s linear infinite;}
+@keyframes box4{
+    0%{transform: scale(1)}
+    33%{transform: scale(1.1)}
+    66%{transform: scale(1)}
+}
+
+.box5:hover{animation: box5 1s linear infinite;}
+@keyframes box5{
+    0%{transform: scale(1)}
+    33%{transform: scale(0.9)}
+    66%{transform: scale(1)}
+}
+
+.box6:hover{animation: box6 0.5s linear}
+@keyframes box6{
+    0%{transform: scale(1)}
+    50%{transform: scale(0.9)}
+    
+}
+
+.box7:hover{animation: box7 0.5s linear}
+@keyframes box7{
+    0%{transform: scale(1)}
+    50%{transform: scale(1.1)}
+    
+}
+
+.box8:hover{animation:box8 0.8s linear;transform: scale(1.2)}
+@keyframes box8{
+    0%{transform: scale(1)}
+    25%{transform: scale(1.2)}
+    50%{transform: scale(1.1)}
+    75%{transform: scale(1.2)}
+}
+
+.box9:hover{animation:box9 0.8s linear;transform: scale(0.8)}
+@keyframes box9{
+    0%{transform: scale(1)}
+    25%{transform: scale(0.8)}
+    50%{transform: scale(0.9)}
+    75%{transform: scale(0.8)}
+}
+
+.box10:hover{transform: rotate(5deg)}
+
+.box11:hover{transform: rotate(8deg) scale(1.1)}
+
+.box12:hover{transform: translateY(-10px)}
+.box13:hover{transform: translateY(10px)}
+
+.box14:hover{animation: box14 2s infinite;transform: translateY(-10px);animation-timing-function: ease-out, ease-in-out;}
+@keyframes box14{
+   
+    0%{transform: translateY(-10px)}
+    50%{transform: translateY(-20px)}
+}
+.box15:hover{animation: box15 2s linear infinite;transform: translateY(10px)}
+@keyframes box15{
+   0%{transform: translateY(10px)}
+   50%{transform: translateY(20px)}
+     
+}
+
+.box16:hover{transform: skew(-10deg)}
+.box17:hover{transform: skewX(-15deg) ;transform-origin: 0% 100%}
+.box18:hover{transform: skewX(15deg);transform-origin: 0% 100%}
+
+.box19:hover{animation: box19 0.5s linear }
+@keyframes box19{
+    0%{transform:translateX(0px)}
+    11%{transform:translateX(10px)}
+    22%{transform:translateX(0px)}
+    33%{transform:translateX(-10px)}
+    44%{transform:translateX(0px)}
+    55%{transform:translateX(5px)}
+    66%{transform:translateX(0px)}
+    77%{transform:translateX(-5px)}
+}
+
+
+.box20:hover{animation: box20 0.5s linear }
+@keyframes box20{
+    0%{transform:translateY(0px)}
+    11%{transform:translateY(10px)}
+    22%{transform:translateY(0px)}
+    33%{transform:translateY(-10px)}
+    44%{transform:translateY(0px)}
+    55%{transform:translateY(5px)}
+    66%{transform:translateY(0px)}
+    77%{transform:translateY(-5px)}
+}
+
+.box21:hover{animation: box21 0.5s linear}
+@keyframes box21{
+     0%{transform:translateY(0px) translateX(0px)}
+    12%{transform:translateY(10px) translateX(10px)}
+    24%{transform:translateY(0px) translateX(0px)}
+    36%{transform:translateY(-10px) translateX(-10px)}
+    48%{transform:translateY(0px) translateX(0px)}
+    60%{transform:translateY(5px) translateX(5px)}
+    72%{transform:translateY(0px) translateX(0px)}
+    84%{transform:translateY(-5px) translateX(-5px)}
+}
+
+.box22:hover{animation: box22 0.5s linear}
+@keyframes box22{
+     0%{transform:translateY(0px) translateX(0px)}
+    12%{transform:translateY(-10px) translateX(10px)}
+    24%{transform:translateY(0px) translateX(0px)}
+    36%{transform:translateY(10px) translateX(-10px)}
+    48%{transform:translateY(0px) translateX(0px)}
+    60%{transform:translateY(-5px) translateX(5px)}
+    72%{transform:translateY(0px) translateX(0px)}
+    84%{transform:translateY(5px) translateX(-5px)}
+}
+
+.box23:hover{animation: box23 0.8s linear;transform-origin: 0% 100%}
+@keyframes box23{
+    0%{transform: skewX(0deg);}
+    12%{transform: skewX(-15deg);}
+    24%{transform: skewX(0deg);}
+    36%{transform: skewX(15deg);}
+    48%{transform: skewX(0deg);}
+    60%{transform: skewX(-10deg);}
+    72%{transform: skewX(0deg);}
+    84%{transform: skewX(10deg);}
+
+}
+.box24:hover{animation: box24 0.8s linear;transform-origin: 100% 0%}
+@keyframes box24{
+    0%{transform: skewX(0deg);}
+    12%{transform: skewX(-15deg);}
+    24%{transform: skewX(0deg);}
+    36%{transform: skewX(15deg);}
+    48%{transform: skewX(0deg);}
+    60%{transform: skewX(-10deg);}
+    72%{transform: skewX(0deg);}
+    84%{transform: skewX(10deg);}
+
+}
+
+.box25:hover{animation: box25 0.8s linear;}
+@keyframes box25{
+    0%{transform: skewX(0deg);}
+    12%{transform: skewX(-15deg);}
+    24%{transform: skewX(0deg);}
+    36%{transform: skewX(15deg);}
+    48%{transform: skewX(0deg);}
+    60%{transform: skewX(-10deg);}
+    72%{transform: skewX(0deg);}
+    84%{transform: skewX(10deg);}
+
+}
+
+.box26:hover{animation: box26 0.19s linear infinite}
+@keyframes box26{
+    0%{transform:rotate(0deg) translateX(0px)}
+    25%{transform:rotate(2deg) translateX(5px)}
+    50%{transform:rotate(0deg) translateX(0px)}
+    75%{transform:rotate(-2deg) translateX(-5px)}
+}
+
+
+.box27:hover{animation: box27 0.4s linear }
+@keyframes box27{
+    0%{transform:rotate(0deg) translateX(0px)}
+    11%{transform:rotate(2deg) translateX(5px)}
+    22%{transform:rotate(0deg) translateX(0px)}
+    33%{transform:rotate(-2deg) translateX(-5px)}
+    44%{transform:rotate(0deg) translateX(0px)}
+    55%{transform:rotate(2deg) translateX(5px)}
+    66%{transform:rotate(0deg) translateX(0px)}
+    77%{transform:rotate(-2deg) translateX(-5px)}
+}
+
+.box28:hover{transform: translateX(10px)}
+.box29:hover{transform: translateX(-10px)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

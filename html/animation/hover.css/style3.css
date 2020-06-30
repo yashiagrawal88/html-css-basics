@@ -1,0 +1,13 @@
+*{padding: 0.1px;margin: 0px}
+.box{width:100%;height:700px;}
+.box>div{width:20%;height:24%;margin: 10px}
+.right{width:70%!important ;height:700px!important;background-color: aqua!important;position: absolute;top:0px;right:0px;}
+.left1{background:url('images/download%20(1).jpg');background-size: 100% 100%;}
+.left2{background:url('images/download.jpg');background-size: 100% 100%;background-position: }
+.left3{background:url('images/download%20(2).jpg');background-size: 100% 100%;}
+.left4{background:url('images/images.jpg');background-size: 100% 100%}
+.left1:hover~.right{background: url('images/download%20(1).jpg');background-size: 100% 100%}
+.left2:hover~.right{background: url('images/download.jpg');}
+.left3:hover~.right{background: url('images/download%20(2).jpg');}
+.left4:hover~.right{background: url('images/images.jpg');}
+

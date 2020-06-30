@@ -1,0 +1,85 @@
+*{margin:0px;padding: 0px;font-family: sans-serif}
+p{line-height: 30px;color:#777}
+header{background: url('../images/banner1.jpg');overflow: hidden;}
+.overlap{background: rgba(0,0,0,0.3);overflow: hidden}
+.container{width:70%;margin: auto}
+nav{background-color:rgba(255,255,255,0.1);margin-top: 20px;padding: 10px;overflow: hidden}
+.nav-left{width:30%;float: left}
+.icon1{color:#00bcd1;margin-right: 10px}
+nav .nav-left h1{font-size: 30px;color: white}
+.nav-right{width:70%;float: right;}
+.nav-right ul{float:right;}
+.nav-right ul li{display: inline}
+.nav-right ul li a{text-decoration: none;color:white;margin-right: 20px}
+.nav-right ul li:first-child>a{border-bottom: 2px solid white}
+.nav-right ul li:hover>a{border-bottom: 2px solid white}
+.inner{margin-top: 270px;margin-bottom: 200px;}
+.inner>center>h4{font-size: 50px;color:white}
+.inner>center>p{width:63%;color:white;margin-top: 10px;line-height: 30px}
+
+
+#section-1{clear:both}
+
+.width50{width:50%;float: left;overflow: hidden;margin-bottom: 60px;}
+tab ul{margin-top: 70px}
+tab ul li {display: inline;margin-right:20px}
+.icon2{margin-right: 10px}
+tab ul li a{text-decoration: none;color:black;font-size: 18px;padding: 10px 30px;font-weight: bold;}
+tab ul li:first-child>a{border:3px #ef6926 solid;border-bottom: none;color:#ef6926}
+.height50>h2{font-weight: 100;margin-top: 20px}
+.height50>p{line-height: 30px;margin-top: 20px;color:#777}
+
+.width30{width:30%;float:left}
+.width40{width:40%;float: left}
+#section-2 h3{color:#555}
+#section-2 h1{font-size: 40px;margin-top: 15px;margin-bottom: 15px;color:#292929}
+#section-2 p{color:#777;line-height: 30px}
+
+#services .title{width:40%;float:left}
+#services .title h1{font-size: 45px;margin-top: 15px;margin-bottom: 15px;color:#292929}
+#services .title h3{color:#555}
+#services .title p{color:#777;line-height: 30px}
+#services .service-box{width:30%;float: left}
+
+#services .service-box h1{font-size: 30px;font-weight: 100}
+#services .service-box p{line-height: 30px;color:#777;}
+#services .icon3{color:#1cc7d0;margin-right: 15px}
+#services .icon4{color:purple;margin-right: 15px}
+#services .icon5{color:coral;margin-right: 15px}
+#services .icon6{color:dodgerblue;margin-right: 15px}
+#whychoose{background-color: #ef6926;overflow: hidden;padding: 50px 0px}
+#whychoose h1{font-size: 45px;text-align: center}
+#whychoose .box{width:33.33%;float:left}
+#whychoose h2{margin-top: 120px;color:#212529}
+#whychoose p{margin-top: 10px;color:#777}
+#whychoose .icon7{color:lightseagreen}
+
+#surfing{padding: 80px 0px;overflow: hidden}
+#surfing .heading {text-align: center;width:80%;margin: auto}
+#surfing .heading p{margin: 30px 0px}
+#surfing .heading h1{font-size: 45px; }
+
+#surfing .box{width:25%;float:left;box-shadow: 7px 7px 10px rgba(76, 110, 245, .1)}
+#surfing .box h1{font-size: 50px;color:#ef6926;font-weight: 800}
+
+#letswave{background: url('../images/banner1.jpg');background-size: 100% 100%;background-attachment: fixed;overflow: hidden}
+#letswave p{color:#ddd}
+#letswave h4{margin-top: 50px;color:#fff;margin-top: 10px}
+#letswave h1{color:#eee;font-size: 45px}
+#letswave form input{padding: 18px ;width:42%;border:none;font-size: 1.1em}
+#letswave form input[type=submit]{width:100%;margin-top: 10px;background-color: #ef6926;font-size: 16px;color:white;font-weight: bold}
+
+#people{background:#f8f9fa;overflow: hidden}
+#people h1{font-size: 45px;text-align: center;margin-bottom: 100px}
+#people .img{width:25%;float: left;}
+#people .box{width:25%;float: left;background-color: white;margin-top: 30px;box-shadow: 7px 7px 10px rgba(76, 110, 245, .1)}
+#people .box h2{margin-top: 30px;letter-spacing: 1.5px}
+#people .box p{font-size: 17px;letter-spacing: 1px}
+
+footer {background-color: #212529}
+footer h1{color:#ccc}
+footer p{color:#777;margin-top: 20px}
+footer a{color:#999;text-decoration: none}
+
+
+
